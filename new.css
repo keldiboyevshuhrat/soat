@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+
+
+.div1{
+    width: 700px;
+    height: 80px;
+    border: 0.2pc solid black;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+
+    >h1{
+        font-size: 40px;
+        font-weight: 800;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: red;
+        text-shadow: 0px 0px 5pc red;
+
+        >span{
+            text-shadow: 0px 0px 1pc red;
+        }
+    }
+}
